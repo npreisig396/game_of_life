@@ -14,14 +14,10 @@ The kernel file for Conway's Game of Life is shown below.
 
 3 3
 
+111  
+1c1  
 111
 
-1c1
-
-111
-
-1:3
-
-1:4
-
+1:3  
+1:4  
 0:3

@@ -2,11 +2,11 @@
 
 Board.py opens a pygame window and executes a set of rules based on the kernel file provided
 
-##Usage
+## Usage
 
 `python board.py {path to kernel file}`
 
-##Kernel file format
+## Kernel file format
 
 The kernel files allow you to specify which cells to include in a neighborhood as well as the set of rules which govern the cells living and dying.
 The kernel file for Conway's Game of Life is shown below.
@@ -28,7 +28,7 @@ The cell itself is always included in the count.
 
 The rules below specify under what circumstances a cell should be alive in the next iteration of the grid. For example, 1:3 means that if a cell is a 1 and its neighborhood count of living cells is 3 then it should be alive in the next iteration. Rather than specify under which conditions a cells die as well, it is assumed that all cells that are not alive according to the rules should be dead in the next iteration.
 
-##pygame Interface
+## pygame Interface
 After starting a game, a pygame window will appear in which the game will be played. The following controls govern how the game progresses.
 
 - [r] - Resets the board and fills the viewable area with a random split of cells.
